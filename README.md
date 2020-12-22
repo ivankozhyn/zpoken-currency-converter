@@ -1,6 +1,6 @@
 ## Currency converter with API Privatbank
 
-### Deploy on https://ivankozhyn.github.io/zpoken-currency-converter/
+### Deploy on https://ivankozhyn.github.io/zpoken-currency-converter/index.html
 
 Розробити сторінку для переводу з однієї валюти в іншу. Для отримання курсів
 використати
