@@ -1,4 +1,4 @@
-## Currency converter with API Privatbank
+## Currency converter(two active inputs) with API Privatbank
 
 ### Deploy on https://ivankozhyn.github.io/zpoken-currency-converter/index.html
 
