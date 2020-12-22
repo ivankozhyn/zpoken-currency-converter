@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  bottom: 0;
+  border: none;
+  background-color: transparent;
+  padding: 0 5px;
+  margin: 0;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.input {
+  max-width: 130px;
+  margin: 0;
+  border: 1px solid #70757a;
+  border-radius: 5px;
+  padding: 5px 25px 5px 5px;
+}
+
+.select {
+  padding: 4px;
+  border: 1px solid #70757a;
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.img {
+  width: 25px;
+  height: 25px;
+}
+
+.remove {
+  width: 15px;
+  height: 15px;
+}
