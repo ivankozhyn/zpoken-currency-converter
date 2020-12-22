@@ -1,3 +1,7 @@
+## Currency converter with API Privatbank
+
+### Deploy on https://ivankozhyn.github.io/zpoken-currency-converter/
+
 Розробити сторінку для переводу з однієї валюти в іншу. Для отримання курсів
 використати
 АПІ([https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=11](https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=11))
