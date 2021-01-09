@@ -4,15 +4,19 @@ import rur from '../assets/rur.svg'
 import uah from '../assets/uah.svg'
 import usd from '../assets/usd.svg'
 
-export const currency = {
-  UAH: 'UAH',
-  BTC: 'BTC',
-  USD: 'USD',
-  EUR: 'EUR',
-  RUR: 'RUR',
+export enum Currency {
+  UAH = 'UAH',
+  BTC = 'BTC',
+  USD = 'USD',
+  EUR = 'EUR',
+  RUR = 'RUR',
 }
 
-export const currencyFlags = {
+export type CurrencyType = {
+  [key in Currency]: string
+}
+
+export const currencyFlags: CurrencyType = {
   UAH: uah,
   BTC: btc,
   USD: usd,

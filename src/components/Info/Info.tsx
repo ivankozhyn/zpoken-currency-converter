@@ -1,4 +1,3 @@
-import s from './Info.module.scss'
 
 import { useSelector } from 'react-redux'
 
@@ -7,7 +6,9 @@ import {
   getToCurrency,
   getFromCurrency,
   getToAmount,
-} from '../../redux/Selectors'
+} from '../../redux/selectors'
+
+import s from './Info.module.scss'
 
 export default function Info() {
   const fromAmount = useSelector(getFromAmount)

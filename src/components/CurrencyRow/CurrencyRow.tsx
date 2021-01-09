@@ -1,16 +1,28 @@
-import s from './CurrencyRow.module.scss'
+import { ChangeEvent } from 'react'
 
 import { currencyFlags } from '../../config/config'
+import { CurrencyNameType } from '../../types/types'
 import remove from '../../assets/remove.svg'
+
+import s from './CurrencyRow.module.scss'
+
+interface Props {
+  allCurrencies: CurrencyNameType[]
+  selectedCurrency: CurrencyNameType
+  handleCurrencyChange: (e: ChangeEvent<HTMLSelectElement>) => void
+  amount: number
+  handleAmountChange: (e: ChangeEvent<HTMLInputElement>) => void
+  handleResetAmount: () => void
+}
 
 export default function CurrencyRow({
   allCurrencies,
   selectedCurrency,
-  onChangeCurrency,
+  handleCurrencyChange,
   amount,
-  onChangeAmount,
+  handleAmountChange,
   handleResetAmount,
-}) {
+}: Props) {
   return (
     <div className={s.container}>
       <span className={s.inputContainer}>
@@ -18,7 +30,7 @@ export default function CurrencyRow({
           type="text"
           className={s.input}
           value={amount}
-          onChange={onChangeAmount}
+          onChange={handleAmountChange}
         />
         <button type="button" className={s.button} onClick={handleResetAmount}>
           <img className={s.remove} src={remove} alt="remove" />
@@ -32,7 +44,7 @@ export default function CurrencyRow({
       <select
         className={s.select}
         value={selectedCurrency}
-        onChange={onChangeCurrency}
+        onChange={handleCurrencyChange}
       >
         {allCurrencies.map(currency => (
           <option key={currency} value={currency}>
