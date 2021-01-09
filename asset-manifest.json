@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zpoken-currency-converter/static/css/main.44a16403.chunk.css",
-    "main.js": "/zpoken-currency-converter/static/js/main.c3e12360.chunk.js",
-    "main.js.map": "/zpoken-currency-converter/static/js/main.c3e12360.chunk.js.map",
-    "runtime-main.js": "/zpoken-currency-converter/static/js/runtime-main.b9868be1.js",
-    "runtime-main.js.map": "/zpoken-currency-converter/static/js/runtime-main.b9868be1.js.map",
-    "static/js/2.534d9ae7.chunk.js": "/zpoken-currency-converter/static/js/2.534d9ae7.chunk.js",
-    "static/js/2.534d9ae7.chunk.js.map": "/zpoken-currency-converter/static/js/2.534d9ae7.chunk.js.map",
+    "main.css": "/zpoken-currency-converter/static/css/main.13beddc6.chunk.css",
+    "main.js": "/zpoken-currency-converter/static/js/main.341eea25.chunk.js",
+    "main.js.map": "/zpoken-currency-converter/static/js/main.341eea25.chunk.js.map",
+    "runtime-main.js": "/zpoken-currency-converter/static/js/runtime-main.418bef9e.js",
+    "runtime-main.js.map": "/zpoken-currency-converter/static/js/runtime-main.418bef9e.js.map",
+    "static/js/2.b97b5acf.chunk.js": "/zpoken-currency-converter/static/js/2.b97b5acf.chunk.js",
+    "static/js/2.b97b5acf.chunk.js.map": "/zpoken-currency-converter/static/js/2.b97b5acf.chunk.js.map",
     "index.html": "/zpoken-currency-converter/index.html",
-    "static/css/main.44a16403.chunk.css.map": "/zpoken-currency-converter/static/css/main.44a16403.chunk.css.map",
-    "static/js/2.534d9ae7.chunk.js.LICENSE.txt": "/zpoken-currency-converter/static/js/2.534d9ae7.chunk.js.LICENSE.txt",
+    "static/css/main.13beddc6.chunk.css.map": "/zpoken-currency-converter/static/css/main.13beddc6.chunk.css.map",
+    "static/js/2.b97b5acf.chunk.js.LICENSE.txt": "/zpoken-currency-converter/static/js/2.b97b5acf.chunk.js.LICENSE.txt",
     "static/media/btc.0965940a.svg": "/zpoken-currency-converter/static/media/btc.0965940a.svg",
     "static/media/eur.0d982a76.svg": "/zpoken-currency-converter/static/media/eur.0d982a76.svg",
     "static/media/remove.e1213946.svg": "/zpoken-currency-converter/static/media/remove.e1213946.svg",
@@ -18,9 +18,9 @@
     "static/media/usd.6b1a1f99.svg": "/zpoken-currency-converter/static/media/usd.6b1a1f99.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9868be1.js",
-    "static/js/2.534d9ae7.chunk.js",
-    "static/css/main.44a16403.chunk.css",
-    "static/js/main.c3e12360.chunk.js"
+    "static/js/runtime-main.418bef9e.js",
+    "static/js/2.b97b5acf.chunk.js",
+    "static/css/main.13beddc6.chunk.css",
+    "static/js/main.341eea25.chunk.js"
   ]
 }
