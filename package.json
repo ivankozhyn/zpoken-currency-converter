@@ -4,15 +4,15 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.0",
-    "@testing-library/jest-dom": "^5.11.8",
-    "@testing-library/react": "^11.2.3",
-    "@testing-library/user-event": "^12.6.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.4",
     "node-sass": "^4.14.1",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
-    "react-scripts": "4.0.1"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,12 +42,12 @@
   },
   "homepage": "https://ivankozhyn.github.io/zpoken-currency-converter",
   "devDependencies": {
-    "typescript": "^4.1.3",
     "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.20",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@types/react-redux": "^7.1.15",
-    "gh-pages": "^3.1.0"
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-redux": "^7.1.16",
+    "gh-pages": "^3.1.0",
+    "typescript": "^4.2.2"
   }
 }
